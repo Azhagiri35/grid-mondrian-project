@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .grid-container{
+            display: grid;
+            gap: 8px;
+            grid-template-columns:60px 110px 130px 75px 75px 50px ;
+            grid-template-rows:100px 90px 90px 70px 70px 70px ;
+            background-color: black;
+            width: 540px;height:540px;
+        }
+        .item1-white{
+            background-color: #ffff;
+            grid-column: span 2;
+        }
+         .item2-white{
+            background-color: #ffff;
+        }
+        .item3-yellow{
+            background-color: yellow;
+            grid-column: span 2;
+        }
+        .item4-white{
+            background-color: #ffff;
+        }
+        .item5-white{
+            background-color: #ffff;
+        }
+        .item6-red{
+            background-color: red;
+            grid-area: 2/2/4/4;
+        }
+        .item7-yellow{
+            background-color: yellow;
+            grid-column: span 2;
+        }    
+        .item8-white{
+            background-color: #ffff;
+            grid-area: 2/6/5/7;
+        }
+       .item9-white{
+            background-color: #ffff;
+            grid-row:span 2;
+        }
+       .item10-white{
+            background-color: #ffff;
+        }
+        .item11-white{
+            background-color: #ffff;
+        }
+        .item12-black{
+            background-color: black;
+            grid-row: span 2;
+        }
+        .item13-white{
+            background-color: #ffff;
+        }
+        .item14-white{
+            background-color: #ffff;
+            grid-column: span 2;
+        }
+        .item15-yellow{
+            background-color: yellow;
+            grid-row: span 2;
+        }
+        .item16-white{
+            background-color: #ffff;
+        } 
+         .item17-blue{
+            background-color: blue;
+            grid-area: 5/4/7/6;
+        }
+       .item18-red{
+            background-color: red;
+            grid-row:span 2 ;
+        }
+        .item19-white{
+            background-color: #ffff;
+        }
+        .item20-black{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+     <div class="grid-container">
+         <div class="item1-white"></div>
+         <div class="item2-white"></div>
+         <div class="item3-yellow"></div>
+         <div class="item4-white"></div>
+         <div class="item5-white"></div>
+         <div class="item6-red"></div>
+         <div class="item7-yellow"></div>
+         <div class="item8-white"></div>
+         <div class="item9-white"></div>
+         <div class="item10-white"></div>
+         <div class="item11-white"></div>
+         <div class="item12-black"></div>
+         <div class="item13-white"></div>
+         <div class="item14-white"></div>
+         <div class="item15-yellow"></div>
+         <div class="item16-white"></div>
+         <div class="item17-blue"></div>
+         <div class="item18-red"></div>
+         <div class="item19-white"></div>
+         <div class="item20-black"></div>
+     </div>
+</body>
+</html>
